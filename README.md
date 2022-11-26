@@ -2,6 +2,10 @@
 
 Hands-on Spring Boot application in kubernetes
 
+## Development environment
+
+See [Development environment - Hands-on guide](docs/hands-on.md#chapt0).
+
 ## License
 
 MIT License
