@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  maven:
+    image: maven:3-eclipse-temurin-11
+    volumes:
+      - ./greeter-server:/workspace/greeter-server
+      - maven_cache:/root/.m2
+    ports:
+      - 8080:8080
+    working_dir: /workspace
+
+volumes:
+  maven_cache:
